@@ -85,6 +85,14 @@ https://micku7zu.github.io/vanilla-tilt.js/index.html
   min-width: 190px;
 }
 
+.history {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 100%;
+  justify-content: space-between;
+}
+
 /* For exercise 6, we're handling errors with an error boundary */
 body[class*='6'] :not(.render-container) > iframe,
 body[class*='6'] > iframe {
